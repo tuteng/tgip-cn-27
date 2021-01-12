@@ -5,6 +5,8 @@
 ```
 
 ### Init zk metadata
+
+```
 ./bin/pulsar initialize-cluster-metadata \
   --cluster pulsar-cluster-1 \
   --zookeeper 127.0.0.1:2181 \
@@ -13,6 +15,7 @@
   --web-service-url-tls https//127.0.0.1:8443 \
   --broker-service-url pulsar://127.0.0.1:6650 \
   --broker-service-url-tls pulsar+ssl://127.0.0.1:6651
+```
 
 ### Init bookkeeper
 
